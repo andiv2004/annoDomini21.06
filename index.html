@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anno Domini - Memorii Digitale</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="AnnoDomini.png" type="image/png">
+</head>
+<body>
+  <header>
+    <h1>Anno Domini - Memorii Digitale</h1>
+  </header>
+
+  <nav>
+    <button class="menu-button" data-option="acasa">Acasă</button>
+    <button class="menu-button" data-option="povesti">Povești de viață</button>
+    <button class="menu-button" data-option="despre">Despre Noi</button>
+    <button class="menu-button" data-option="servicii">Servicii</button>
+    <button class="menu-button" data-option="oferta">Oferta Noastră</button>
+    <button class="menu-button" data-option="cum-functioneaza">Cum Funcționează</button>
+    <button class="menu-button" data-option="contact">Contact</button>
+  </nav>
+
+  <div class="content" id="content">
+    <div id="acasa-content" class="page-content active">
+      <div class="hero">
+        <h2>Eternizează amintirile celor dragi</h2>
+        <p>Memorii digitale pentru cei dragi care nu mai sunt astăzi fizic alături de noi, oferite printr-o soluție inovativă. Păstrăm povestea vieții lor în siguranță și inspirăm generațiile viitoare.</p>
+        <a href="#cum-functioneaza" class="cta-button" data-option="cum-functioneaza">Află mai multe</a>
+      </div>
+
+      <div class="features" id="servicii-home"> <h2>Serviciile Noastre</h2>
+        <p>La Anno Domini, oferim soluții de memorii digitale care își propun sa celebreze moștenirea celor dragi dar și să imbogațească cultural generațiile ce stau să vină</p>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Păstrare Sigură</h3>
+            <p>Stocăm amintirile digitale într-un spațiu sigur și accesibil</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Coduri QR Personalizate</h3>
+            <p>Printăm integral 3D coduri QR care înlocuiesc linia dintre anii de viață cu o poveste de viață, cu experiențe și reușite</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎞️</div>
+            <h3>Povești Multimedia</h3>
+            <p>Combinăm fotografii, videoclipuri și text pentru a crea o amintire digitlă completă, care sublinează frumusețea vieții și cât de importantă este moștenirea lăsată de fiecare dintre noi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="how-it-works" id="cum-functioneaza-home"> <h2>Cum Funcționează?</h2>
+        <p>Procesul nostru este simplu și are ca scop, construirea și stocarea datelor care definesc memoria digitală</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Contactați-ne</h3>
+            <p>Discutăm despre persoana dragă și memoriile pe care doriți să le păstrați.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Colectăm Amintirile</h3>
+            <p>Participăm activ, împreuna cu dumneavoastră la conceperea povești de viață. Folosim textul, imaginile și videoclipurile pentru a crea o subpagina a site-ului, unde va fi stocată povestea de viață</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Creăm Memoria Digitală</h3>
+            <p>Construim o pagină memorială unică și personalizată pentru persoana dragă iar în urma acceptului dumnevoastră păstram această pagină în secțiunea Povești de viață de pe site-ul nostru.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Livrarea codului Qr</h3>
+            <p>Livrăm un cod QR, care are amplasată pe spate o bandă dublu-adezivă rezistentă, pentru a facilita amplasarea acestuia pe piatra funerară</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact-home"> <h2>Contactați-ne</h2>
+        <p>Suntem aici pentru a vă ajuta să păstrați amintirile celor dragi.</p>
+
+        <div class="contact-form">
+          <form id="home-contact-form">
+            <div class="form-group">
+              <label for="name-home">Nume</label>
+              <input type="text" id="name-home" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email-home">Email</label>
+              <input type="email" id="email-home" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone-home">Telefon</label>
+              <input type="tel" id="phone-home" name="phone">
+            </div>
+
+            <div class="form-group">
+              <label for="message-home">Mesaj</label>
+              <textarea id="message-home" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Trimite Mesajul</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="povesti-content" class="page-content">
+      <div class="hero-povesti">
+        <h2>Povești de viață care inspiră</h2>
+        <p>Descoperă poveștile extraordinare ale oamenilor obișnuiți care au lăsat o amprentă în această lume.</p>
+      </div>
+
+      <div class="stories-grid">
+        <div class="story-card" data-story-id="ioan-muresan">
+          <div class="story-image" style="background-image: url('https://via.placeholder.com/300x200/cccccc/808080?text=Ioan+M.');"></div>
+          <h3>Ioan Mureșan (1935-2023)</h3>
+          <p class="story-excerpt">Povestea unui profesor de matematică care a inspirat generații de elevi și a revoluționat educația în micul său oraș...</p>
+          <a href="#ioan-muresan" class="story-link">Citește povestea →</a>
+        </div>
+
+        <div class="story-card" data-story-id="elena-crisan-1964">
+          <div class="story-image" style="background-image: url('https://via.placeholder.com/300x200/cccccc/808080?text=Elena+C.+1942');"></div>
+          <h3>Elena Crișan (1942-2024)</h3>
+          <p class="story-excerpt">De la o copilărie dificilă în timpul celui de-al Doilea Război Mondial, la construirea unei afaceri de familie care există și astăzi...</p>
+          <a href="#elena-crisan-1942" class="story-link">Citește povestea →</a>
+        </div>
+
+        <div class="story-card" data-story-id="elena-crisan-1923">
+          <div class="story-image" style="background-image: url('https://via.placeholder.com/300x200/cccccc/808080?text=Elena+C.+1923');"></div>
+          <h3>Elena Crișan (1923-2010)</h3>
+          <p class="story-excerpt">O bibliotecară devotată, a cărei viață a fost marcată de dragostea pentru literatura clasică și de munca sa în comunitate...</p>
+          <a href="#elena-crisan-1923" class="story-link">Citește povestea →</a>
+        </div>
+
+        <div class="story-card" data-story-id="dumitru-iancu">
+          <div class="story-image" style="background-image: url('https://via.placeholder.com/300x200/cccccc/808080?text=Dumitru+I.');"></div>
+          <h3>Dumitru Iancu (1958-2022)</h3>
+          <p class="story-excerpt">Un inginer pasionat care a construit poduri nu doar peste râuri, ci și între oameni din comunități diferite...</p>
+          <a href="#dumitru-iancu" class="story-link">Citește povestea →</a>
+        </div>
+
+        <div class="story-card" data-story-id="maria-avram">
+          <div class="story-image" style="background-image: url('https://via.placeholder.com/300x200/cccccc/808080?text=Maria+A.');"></div>
+          <h3>Maria Avram (1927-2020)</h3>
+          <p class="story-excerpt">Povestea unei femei care a supraviețuit represiunii comuniste și a devenit un simbol al rezistenței și speranței...</p>
+          <a href="#maria-avram" class="story-link">Citește povestea →</a>
+        </div>
+      </div>
+      <div class="share-story">
+        <h3>Ai o poveste de împărtășit?</h3>
+        <p>Dacă ai un membru al familiei a cărui poveste de viață crezi că ar putea inspira și alți oameni și pe care l-ai respectat pentru persoana care a reușit să fie sau care te-a modelat în persoana care ești astăzi, ne-ar face plăcere să discutăm și să ajutăm.</p>
+        <a href="#contact" class="cta-button" data-option="contact">Contactează-ne</a>
+      </div>
+    </div>
+
+    <div id="despre-content" class="page-content">
+      <div class="hero-despre">
+        <h2>Despre Anno Domini</h2>
+        <p>Misiunea noastră este să păstrăm și să onorăm memoria celor dragi prin tehnologie și inovație.</p>
+      </div>
+      <div class="despre-section">
+        <div class="despre-container">
+          <div class="despre-content-text"> <h3>Povestea Noastră</h3>
+            <p>Anno Domini - Memorii Digitale s-a născut din dorința profundă de a oferi o punte între generații, un loc unde amintirile prețioase ale celor care nu mai sunt printre noi pot fi păstrate vii și accesibile. Într-o lume digitală în continuă schimbare, credem cu tărie că poveștile de viață merită o formă de eternitate modernă, una care să poată fi vizitată și împărtășită cu ușurință, indiferent de distanță sau timp.</p>
+            <p>Am început acest proiect cu gândul la propriile noastre familii, la acele figuri dragi a căror înțelepciune, iubire și realizări ne-au modelat. Ne-am dat seama că metodele tradiționale de comemorare, deși valoroase, pot fi completate de tehnologia actuală pentru a crea memorii eterne, bogate în conținut multimedia – fotografii, videoclipuri și texte care împreună țes o imagine completă a unei vieți.</p>
+            <p>Misiunea noastră este să transformăm fiecare piatră funerară sau loc de comemorare într-un drum către o poveste de viață de succes, într-un drum pe care și alții au călcat având succes și fiind o sursă de inspirație pentru noi toți, folosind coduri QR discrete. Ne dedicăm să lucrăm cu respect, empatie și profesionalism alături de fiecare familie, pentru a crea un tribut digital unic și personalizat, care să onoreze memoria și moștenirea lăsată în urmă.</p>
+          </div>
+          <div class="despre-image" style="background-image: url('https://via.placeholder.com/500x400/e0e0e0/a0a0a0?text=Despre+Noi'); background-size: cover; background-position: center; min-height: 300px;">
+            </div>
+        </div>
+      </div>
+      <div class="values-section">
+        <h3>Valorile Noastre</h3>
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">🤝</div>
+            <h4>Respect</h4>
+            <p>Tratăm fiecare poveste de viață cu respectul și demnitatea pe care o merită.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">💫</div>
+            <h4>Inovație</h4>
+            <p>Utilizăm tehnologia pentru a crea soluții inovatoare de păstrare a memoriei și a sentimentelor care îi fac pe cei dragi sa trăiască și astăzi prin noi.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">🔄</div>
+            <h4>Continuitate</h4>
+            <p>Credem în importanța transmiterii poveștilor și valorilor între generații.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">❤️</div>
+            <h4>Empatie</h4>
+            <p>Înțelegem sensibilitatea momentelor de pierdere și oferim suport cu căldură și înțelegere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="servicii-content" class="page-content">
+      <div class="hero-servicii">
+        <h2>Serviciile Noastre</h2>
+        <p>Oferim soluții complete și personalizate pentru păstrarea și onorarea memoriei celor dragi</p>
+      </div>
+
+      <div class="services-section">
+        <div class="service-card-large">
+          <div class="service-icon">📱</div>
+          <h3>Memorii Digitale</h3>
+          <p>Pot include: </p>
+          <ul class="service-features">
+            <li>Biografie detaliată și cronologie a vieții</li>
+            <li>Galerii foto și video cu momentele importante</li>
+            <li>Lecții importante de viață</li>
+          </ul>
+        </div>
+
+        <div class="service-card-large">
+          <div class="service-icon">🔗</div>
+          <h3>Coduri QR pentru Pietre Funerare</h3>
+          <p>Conectăm lumea fizică cu cea digitală prin:</p>
+          <ul class="service-features">
+            <li>Coduri QR discrete și rezistente</li>
+            <li>Legătură directă către pagina unde se află memoria digitală</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="how-it-works-detailed-section" style="margin-top: 4rem; padding: 2rem; background-color: #f9f9f9; border-radius: var(--border-radius);">
+        <div class="hero-cum-functioneaza" style="background-color: transparent; padding: 2rem 0;"> <h2>Cum Funcționează Serviciul Nostru</h2>
+            <p>Ghid pas cu pas pentru crearea unei memorii digitale durabile</p>
+        </div>
+
+        <div class="process-detailed">
+            <div class="process-step">
+            <div class="step-number-large">1</div>
+            <div class="step-content">
+                <h3>Consultare Inițială</h3>
+                <p>Procesul începe cu o discuție pentru a înțelege dorințele și nevoile dumneavoastră:</p>
+                <ul>
+                <li>Discutăm despre persoana dragă și povestea vieții sale</li>
+                <li>Explorăm tipurile de amintiri și materiale disponibile (fotografii, video, documente)</li>
+                <li>Vă prezentăm opțiunile de servicii și vă recomandăm soluția optimă</li>
+                <li>Stabilim un plan și un calendar pentru proiect</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="process-step">
+            <div class="step-number-large">2</div>
+            <div class="step-content">
+                <h3>Colectarea Materialelor</h3>
+                <p>Adunăm toate elementele necesare pentru a crea o memorie digitală completă:</p>
+                <ul>
+                <li>Colectăm fotografii, videoclipuri și alte documente relevante</li>
+                <li>Digitalizăm materialele fizice (fotografii vechi, scrisori, documente)</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="process-step">
+            <div class="step-number-large">3</div>
+            <div class="step-content">
+                <h3>Crearea Memoriei Digitale</h3>
+                <p>Folosim materialele colectate pentru a construi o memorie digitală cuprinzătoare:</p>
+                <ul>
+                <li>Dezvoltăm o memorie digitală personalizată cu un design adaptat.</li>
+                <li>Integrăm toate materialele într-o narațiune coerentă și interactivă.</li>
+                <li>Adăugăm elemente multimedia și texte biografice atent redactate.</li>
+                <li>Vă prezentăm o versiune preliminară pentru revizuire și feedback, asigurându-ne că rezultatul final corespunde așteptărilor.</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="process-step">
+            <div class="step-number-large">4</div>
+            <div class="step-content">
+                <h3>Livrarea Codului QR</h3>
+                <p>Livrăm un cod QR funcțional, care în urma scanării, redirecționează spre pagina Anno Domini, direct la secțiunea care conține informația despre persoana dragă</p>
+                <ul>
+                <li>Testăm funcționalitatea pentru a asigura accesul facil la memoria digitală.</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="process-step">
+            <div class="step-number-large">5</div>
+            <div class="step-content">
+                <h3>Lansare și Suport Continuu</h3>
+                <p>Finalizăm procesul și oferim suport de lungă durată:</p>
+                <ul>
+                <li>Lansăm oficial memoria digitală și oferim astfel acces familiei,prietenilor și oricui dornic să învețe sau să se inspire prin link direct și/sau cod QR.</li>
+                <li>Oferim instrucțiuni clare pentru accesarea și împărtășirea memoriei digitale.</li>
+                <li>Asigurăm găzduire și mentenanță tehnică pentru pagina memorială pe termenul agreat.</li>
+                <li>Oferim suport tehnic și posibilitatea de actualizare a conținutului în timp, conform pachetului de servicii.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="faq-section" style="margin-top: 3rem;">
+            <h3>Întrebări Frecvente</h3>
+
+            <div class="faq-item">
+            <h4>Cât durează procesul complet?</h4>
+            <p>În general, procesul durează între 2 și 4 săptămâni, în funcție de complexitatea proiectului și de promptitudinea cu care sunt furnizate materialele necesare.</p>
+            </div>
+
+            <div class="faq-item">
+            <h4>Cât timp va fi disponibilă memoria digitală?</h4>
+            <p>Oferim pachete de găzduire și mentenanță pe termen lung, care trebuie să fie în corcondanță cu Termeni și Condiții.</p>
+            </div>
+
+            <div class="faq-item">
+            <h4>Ce se întâmplă cu materialele originale?</h4>
+            <p>Toate materialele fizice originale vă sunt returnate în siguranță după procesul de digitalizare, dacă ni le-ați încredințat fizic.</p>
+            </div>
+        </div>
+      </div>
+      <div class="pricing-cta" style="margin-top: 3rem;"> <h3>Soluții Personalizate pentru Fiecare Nevoie</h3>
+        <p>Fiecare pachet de servicii este adaptat nevoilor și preferințelor dumneavoastră. Contactați-ne pentru a discuta despre opțiunile disponibile și pentru a primi o ofertă personalizată.</p>
+        <a href="#contact" class="cta-button" data-option="contact">Solicită o Ofertă</a>
+      </div>
+    </div>
+    
+    <div id="oferta-content" class="page-content">
+      <div class="hero-oferta">
+        <h2>Oferta Noastră</h2>
+        <strong><p>Alegeți pachetul care se potrivește cel mai bine pentru a onora memoria celor dragi.</p></strong>
+      </div>
+      <style>
+        .hero-oferta {
+          position: center;
+        }
+      </style>
+      <div class="oferta-container" style="display: flex; justify-content: space-around; padding: 2rem; gap: 2rem;">
+        <div class="oferta-card" style="flex: 1; background: #f9f9f9; padding: 2rem; border-radius: 8px; text-align: center;">
+          <h3>Esențial</h3>
+          <p class="price" style="font-size: 2.5rem; font-weight: bold; color: #333; margin: 1rem 0;">110 lei</p>
+          <ul style="list-style: none; padding: 0; text-align: left; margin: 0 auto; max-width: 250px;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid #ddd;">✓ Două pagini text</li>
+            <li style="padding: 0.5rem 0;">✓ Până la 3 poze incluse</li>
+          </ul>
+        </div>
+        <div class="oferta-card" style="flex: 1; background: #f9f9f9; padding: 2rem; border-radius: 8px; text-align: center;">
+          <h3>Rafinat</h3>
+          <p class="price" style="font-size: 2.5rem; font-weight: bold; color: #333; margin: 1rem 0;">140 lei</p>
+          <ul style="list-style: none; padding: 0; text-align: left; margin: 0 auto; max-width: 250px;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid #ddd;">✓ Trei pagini text</li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid #ddd;">✓ Până la 5 poze</li>
+            <li style="padding: 0.5rem 0;">✓ Un video de până la 30 secunde</li>
+          </ul>
+        </div>
+        <div class="oferta-card" style="flex: 1; background: #f9f9f9; padding: 2rem; border-radius: 8px; text-align: center;">
+          <h3>Custom</h3>
+          <p class="price" style="font-size: 2.5rem; font-weight: bold; color: #333; margin: 1rem 0;">Alegerea vă aparține</p>
+          <p>Prețul variază în funcție de complexitate și cerințe dar personalizarea este cheia obținerii unui rezultat unic.</p>
+        </div>
+      </div>
+
+      <div class="oferta-container" style="display: flex; justify-content: center; padding: 2rem 1rem;">
+        <div class="oferta-card" style="flex: 0 1 500px; background: #f0f8ff; padding: 2rem; border-radius: 8px; text-align: center; border: 2px solid #add8e6;">
+          <h3>Abonament Anual</h3>
+          <p class="price" style="font-size: 2.5rem; font-weight: bold; color: #333; margin: 1rem 0;">6 Euro  / an</p>
+          <ul style="list-style: none; padding: 0; text-align: left; margin: 0 auto; max-width: 350px;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid #ddd;">✓ Înlocuirea gratuită a până la două coduri QR în caz de deteriorare</li>
+            <li style="padding: 0.5rem 0;">✓ Găzduire web (hosting) și mentenanța paginii digitale.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="video-section" style="text-align: center; padding: 3rem 1rem;">
+        <h3>Making of</h3>
+        <video src="qrPrint.mp4" controls width="80%" style="max-width: 720px; margin-top: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+      </video>
+      </div>
+    </div>
+
+
+    <div id="contact-content" class="page-content">
+      <div class="hero-contact">
+        <h2>Contactați-ne</h2>
+        <p>Suntem aici pentru a răspunde întrebărilor și a vă ghida în procesul de creare a memoriilor digitale</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-methods">
+          <div class="contact-method">
+            <div class="contact-icon">📞</div>
+            <h3>Telefon</h3>
+            <p>+40771174463</p>
+            <p class="contact-note">Luni-Vineri: 9:00-18:00</p>
+          </div>
+          <div class="contact-method">
+            <div class="contact-icon">✉️</div>
+            <h3>Email</h3>
+            <p>contact@annodomini.ro</p>
+            <p class="contact-note">Răspundem în maxim 24 de ore</p>
+          </div>
+          <div class="contact-method">
+            <div class="contact-icon">📍</div>
+            <h3>Adresă</h3>
+            <p>Str. Intrarea Carului numarul 5, Timisoara, Romania</p>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <h3>Trimite-ne un mesaj</h3>
+          <form id="main-contact-form" class="contact-form-extended">
+            <div class="form-group">
+              <label for="contact-name">Nume</label>
+              <input type="text" id="contact-name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Telefon</label>
+              <input type="tel" id="contact-phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subiect</label>
+              <select id="contact-subject" name="subject">
+                <option value="informații">Solicit informații</option>
+                <option value="ofertă">Solicit ofertă personalizată</option>
+                <option value="consultare">Programare consultare</option>
+                <option value="altele">Altele</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Mesaj</label>
+              <textarea id="contact-message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Trimite Mesajul</button>
+          </form>
+        </div>
+      </div>
+      <div class="map-container">
+        <h3>Ne găsiți aici</h3>
+        <div class="map-placeholder">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.699981197275!2d21.22118131556694!3d45.75473197910607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d8b06306f7b%3A0x61a533e9ff350199!2sIntrarea%20Carului%205%2C%20Timi%C8%99oara%20300158!5e0!3m2!1sen!2sro!4v1684000000000!5m2!1sen!2sro" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="privacy-content" class="page-content">
+  <div class="page-padding" style="padding: 2rem 1.5rem; background-color: var(--light-color); border-radius: var(--border-radius); margin: 1rem 0;">
+    <h2>Politică de Confidențialitate și Cookie-uri</h2>
+    <p><strong>Ultima actualizare generală: 5 iunie 2025</strong></p>
+
+    <section>
+      <h3>POLITICA GENERALĂ DE CONFIDENȚIALITATE</h3>
+      <p>POLITICA GENERALĂ DE CONFIDENȚIALITATE în cadrul G&O TEAM S.R.L, prin brandul Anoo Domini-Memorii Digitale cu privire la Regulamentul UE 2016/679 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE.</p>
+      <p>Furnizorul Anno Domini-Memorii Digitale (denumită în continuare “Furnizorul”) se aliniază Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului – privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE (denumit în continuare în prezentul plan “Regulamentul” sau „GDPR” ) care este aplicabil din data de 25 mai 2018.</p>
+
+      <h4>Prezenta Politică se aplică:</h4>
+      <ul>
+        <li>Sediului și punctelor de lucru aparținând Anno Domini-Memorii Digitale.</li>
+        <li>Tuturor departamentelor și întregului personal aparținând Anno Domini-Memorii Digitale.</li>
+        <li>Tuturor contractanților, furnizorilor și altor persoane care lucrează în numele Anno Domini-Memorii Digitale.</li>
+      </ul>
+
+      <h4>TERMENI REGULAMENT:</h4>
+      <ul>
+        <li><strong>Operator</strong> – entitatea – în cazul de față – Anno Domini-Memorii Digitale, sau orice altă persoană juridică, autoritate publică, agenție sau organizație non-guvernamentală, care prelucrează sau stabilește scopurile și mijloacele de prelucrare a datelor cu caracter personal;</li>
+        <li><strong>Date cu caracter personal</strong> – orice informații privind o persoană fizică indentificată sau identificabilă; o persoană identificabilă este acea persoană care poate fi identificată – direct sau indirect, prin referire la un element de identificare: nume/prenume, adresă, cod numeric personal, e-mail, telefon, venituri, date biometrice, imaginea, adresa de IP sau prin referire la datele medicale, genetice, datele privind originea etică sau rasială, convingeri politice, religioase, filosofice, culturale sau apartenența sindicală;</li>
+        <li><strong>Persoana vizată</strong> – orice persoană fizică ale cărei date cu caracter personal pot fi sau sunt prelucrate de operator;</li>
+      </ul>
+
+      <h4>INFORMAȚII GENERALE:</h4>
+      <p>Anno Domini-Memorii Digitale, cu sediul în TIMISOARA, înregistrată la ONRC Timis sub nr. J35/29/1991, având cod fiscal [COD FISCAL NEDISPONIBIL] e-mail: office@annodomini.com, este responsabilă de prelucrarea datelor tale cu caracter personal pe care le colectăm direct de la persoanele fizice vizate sau din alte surse legale.</p>
+      <p>Furnizorul nostru – Anno Domini-Memorii Digitale calitatea de operator potrivit prevederilor noului Regulament. Pentru ca datele persoanelor fizice vizate să fie prelucrate în siguranță, am depus toate eforturile să implementăm măsuri rezonabile pentru a proteja informațiile personale ale acestora.</p>
+      <p>Când persoana fizică vizată intră într-o relație de orice natură cu noi, ne încredințează informațiile sale. Scopul acestei Politici generale de confidențialitate este să explice persoanelor fizice vizate ce date prelucrăm, de ce le prelucrăm și ce facem cu ele – în calitatea noastră de operator. Luăm în serios confidențialitatea și nu vindem niciodată liste sau adrese de e-mail. Fiind pe deplin conștienți de faptul că informațiile personale aparțin fiecarei persoane fizice, facem tot posibilul să le stocăm în siguranță și să le prelucrăm cu atenție. Nu oferim informații unor părți terțe fără a informa in prealabil persoanele vizate. Aceste informații sunt importante. Sperăm ca ele sa fie citite cu atenție.</p>
+      <p>Acestă Politică generală de confidențialitate nu acoperă aplicațiile și site-urile altor terți la care persoanele pot ajunge prin accesarea link-urilor de pe site-ul nostru. Acest lucru excede controlului nostru. Încurajăm pe toti să examineze Politica de confidențialitate de pe site înainte de a furniza date personale.</p>
+      <p>Acestă Politică generală de confidențialitate acoperă și procesul de recrutare și selecție a candidaților la posturile ofertate de Furnizor (de ex. – Furnizorul obține date cu caracter personal ca urmare a solicitării completării unui formular dintr-o aplicație sau prin transmiterea unui CV – prin e-mail). Furnizorul aduce la cunoștința solicitanților datele personale care le vor fi colectate, scopul în care sunt colectate și cum vor fi utilizate, in strânsa legatură cu existenta Politicii de confidentialitate specifice recrutării formulata de Furnizor (în operațiunea de recrutarea pe e-mail există un link către politica de confidențialitate).</p>
+      <p>Potrivit legislației, persoana fizică beneficiară a serviciilor noastre sau persoana aflată într-o relație de orice fel cu noi, este o „persoană vizată”, adică o persoană fizică identificată sau identificabilă. Pentru a fi complet transparenți în privința prelucrării de date și pentru a permite ca aceasta să își exercițe cu ușurință, în orice moment, drepturile, am implementat măsuri pentru a facilita comunicarea dintre noi, operatorul de date și persoana vizată.</p>
+
+      <h4>ANGAJAMENTUL ANNO DOMINI-MEMORII DIGITALE:</h4>
+      <p>Protecția informațiilor personale ale persoanelor vizate este foarte importantă pentru noi. De aceea, ne-am luat angajamentul să respectăm noul Regulament (EU) 2016/679, legislația națională aplicabilă în materie, dar și următoarele principii:</p>
+      <ul>
+        <li><strong>Legalitate, echitate și transparență:</strong> Prelucrăm datele cu caracter personal legal și corect. Suntem întotdeauna transparenți în privința informațiilor pe care utilizăm, iar persoana vizata este informată corespunzător.</li>
+        <li><strong>Controlul aparține persoanei fizice vizate:</strong> În limitele legii, oferim acesteia posibilitatea de examina, modifica, șterge datele personale pe care le-a împărtășit cu noi și de a-și exercita celelalte drepturi.</li>
+        <li><strong>Integritatea datelor și limitarea scopului:</strong> Utilizăm datele numai în scopurile descrise la momentul colectării sau în noi scopuri compatibile cu cele inițiale. În toate cazurile, scopurile noastre sunt compatibile cu legislația. Luăm măsuri rezonabile pentru a ne asigura că datele personale sunt corecte, complete și actualizate.</li>
+        <li><strong>Securitate:</strong> Am implementat măsuri rezonabile de securitate și criptare, astfel încât să protejăm cât mai bine informațiile. Cu toate acestea, este de reținut faptul că niciun site web, nicio aplicație și nicio conexiune la internet nu este complet sigură.</li>
+      </ul>
+
+      <h4>ÎNTREBĂRI:</h4>
+      <p>Dacă există întrebări sau nelămuriri cu privire la prelucrarea datelor persoanelor vizate sau acestea doresc să îsi exercite drepturile legale în legătură cu datele pe care le deținem sau dacă exista temeri cu privire la modul în care tratăm orice problemă de confidențialitate, orice persoana vizată interesată ne poate scrie la adresa de e-mail: office@annodomini.com.</p>
+      <p>Putem schimba această Politică Generală de confidențialitate în orice moment. Toate actualizările și modificările prezentei Politici sunt valabile imediat după notificarea lor, pe care o vom realiza prin afișare pe site și/sau notificare pe e-mail.</p>
+
+      <h4>INFORMAȚIILE PERSOANELOR VIZATE:</h4>
+      <p>Atunci când persoanele vizate interacționează în orice fel cu noi este posibil să ne furnizeze sau să obținem din alte surse informații precum:</p>
+      <ul>
+        <li>Nume/Prenume</li>
+        <li>Adresa</li>
+        <li>Vârstă</li>
+        <li>E-mail</li>
+        <li>Telefon</li>
+        <li>Sexul</li>
+        <li>Profilul de socializare</li>
+        <li>Interesele și preferințele</li>
+        <li>CNP-ul</li>
+        <li>Informații despre produsele și serviciile achiziționate</li>
+        <li>Fotografia</li>
+        <li>Competențe</li>
+        <li>Studii</li>
+      </ul>
+
+      <h4>DE CE COLECTEAZĂ ANNO DOMINI-MEMORII DIGITALE ACESTE DATE:</h4>
+      <p>Colectăm informațiile persoanelor vizate în scopuri determinate și legitime care includ, dar nu se limitează la acestea, următoarele:</p>
+      <ul>
+        <li>Pentru a putea comunica cu candidatii la pozitiile ofertate de Furnizor;</li>
+        <li>Pentru a lua decizia potrivită în vederea angajării acestora;</li>
+        <li>În vederea încheierii și executării unui contract de muncă potrivit specializării/calificării candidatilor;</li>
+        <li>În vederea încheierii sau executării/modificarii unui contract dintre persoanele vizate și Furnizor;</li>
+        <li>Pentru a răspunde la întrebările și solicitările persoanelor vizate;</li>
+        <li>În scop de marketing, însă doar în situația în care avem consimțământul prealabil al persoanei vizate;</li>
+        <li>Pentru a oferi și îmbunătăți serviciile și produsele pe care le oferă Furnizorul;</li>
+        <li>Pentru a inregistra sau a remedia probleme tehnice;</li>
+        <li>Pentru a oferi reclamă și conținut personalizat;</li>
+        <li>Pentru a apăra Furnizorul împotriva atacurilor cibernetice;</li>
+        <li>Pentru a conforma Furnizorul legislației;</li>
+        <li>Pentru constatarea sau revendicarea unui drept în instanță;</li>
+      </ul>
+
+      <h4>CARE ESTE TEMEIUL LEGAL PENTRU PRELUCRARE:</h4>
+      <p>Persoana vizată si-a dat consimțământul pentru prelucrarea datelor cu caracter personal: Este de reținut că persoana vizata îsi poate retrage în orice moment consimțământul prin urmarea instrucțiunilor de dezabonare („unsubscribe”) din fiecare e-mail sau prin transmiterea unei cereri scrise la adresa de e-mail: office@annodomini.com.</p>
+      <p>Prelucrarea este necesară pentru încheierea sau executarea unui contract între persoana vizata și Furnizor: Contract de prestari servicii, sau Contract de angajare.</p>
+
+      <h4>STOCAREA DATELOR ÎN CADRUL ANNO DOMINI-MEMORII DIGITALE.</h4>
+      <p>Stocăm datele cu caracter personal doar pe perioada necesară îndeplinirii scopurilor, dar nu mai mult de 5 ani de la încetarea contractului sau ultima interacțiune a persoanei fizice vizate cu Furnizorul. După încheierea perioadei, datele cu caracter personal ale persoanelor vizate vor fi distruse sau șterse din sistemele informatice sau transformate în date anonime pentru a fi utilizate în scopuri de cercetare științifică, istorică sau statistică. Este de reținut faptul că în anumite situații expres reglementate, stocăm datele pe perioada care ne este impusă de lege.</p>
+
+      <h4>PARTAJAREA INFORMAȚIILOR TALE CU TERȚE PERSOANE:</h4>
+      <p>Anno Domini-Memorii Digitale nu va dezvălui datele obținute de la persoane vizate, către alte companii terțe fără să fi obținut în prealabil un consimțământ expres și separat în acest sens. Furnizorul confirmă, că datele cu caracter personal obținute sunt stocate în mod securizat sau sunt distruse, sens în care informîm peroanele vizate că există acorduri de prelucrare a datelor cu furnizorul/furnizorii de software prin care aceștia au asigurat la rândul lor Furnizorul că sunt conformi cu GDPR.</p>
+      <p>Anno Domini-Memorii Digitale poate dezvălui datele persoanelor fizice vizate, respectând legea aplicabilă, partenerilor de afaceri sau altor terți, cum ar fi proprii împuterniciți. Depunem în permanență eforturi rezonabile pentru a ne asigura că acești terți au implementate măsuri adecvate de protecție și securitate. Cu acești terți avem clauze contractuale astfel încât datele tale să fie protejate. Vom informa persoanele vizate de fiecare data cu privire la identitatea acestor companii înainte de transmitere sau într-un termen rezonabil și ne vom asigura că orice transfer este legitim, având la bază consimțământul acestora sau alt temei juridic. De exemplu, am putea furniza datele cu caracter personal către alte companii, precum furnizorii de servicii IT sau telecomunicații, contabilitate, servicii juridice și alți terți cu care avem o relație contractuală. Acești terți sunt selectați cu o grijă deosebită astfel încât aceste date să fie prelucrate doar în scopurile pe care noi le indicăm. De asemenea, Furnizorul ar putea partaja datele persoanelor fizice vizate către parteneri de afaceri ca urmare a unui efort comun de a oferi un produs sau un serviciu. Deși puțin probabil, Furnizorul ar putea vinde în viitor afacerea sau o parte a afacerii, situație care va include transferul acestor date.</p>
+      <p>Ar putea si transmise datele și altor părţi având consimţământul sau potrivit instrucţiunilor persoanei fizice vizate. Informațiile cu caracter personal vor putea fi furnizate și către parchet, poliție, instanțele judecătorești și alte organe abilitate ale statului, în baza și în limitele prevederilor legale și ca urmare a unor cereri expres formulate. În limite rezonabile, Furnizorul se va sigura că datele persoanelor vizate nu părăsesc Spațiul Economic European, însă, în măsura în care va transfera date către state din afara SEE, va urmari, în toate cazurile, ca transferurile sa fie legitime, având la baza consimțământul explicit al persoanei vizate sau alt temei legal.</p>
+
+      <h4>DREPTURILE PERSOANEI VIZATE ÎN LUMINA NOULUI REGULAMENT:</h4>
+      <ul>
+        <li>Dreptul de retragere a consimțământului acolo unde prelucrarea se face în baza consimțământului;</li>
+        <li>Dreptul de a fi informată cu privire la prelucrarea datelor tale;</li>
+        <li>Dreptul de acces asupra datelor;</li>
+        <li>Dreptul de a rectifica datele inexacte sau incomplete;</li>
+        <li>Dreptul de ștergere („dreptul de a fi uitat”);</li>
+        <li>Dreptul la restricționarea prelucrării</li>
+        <li>Dreptul de a transmite datele pe care le avem despre persoana vizată către alt operator</li>
+        <li>Dreptul de a se opune prelucrării datelor</li>
+        <li>Dreptul de a nu face obiectul unei decizii bazate exclusiv pe prelucrarea automată, inclusiv crearea de profiluri</li>
+        <li>Dreptul de a se adresa justiției</li>
+        <li>Dreptul de formula o plângere în fața Autorității de Supraveghere.</li>
+      </ul>
+      <p>Anno Domini-Memorii Digitale aduce la cunoștința oricarei persoane fizice vizate faptul că: Își poate retrage consimțământul privind prelucrarea datelor cu caracter sensibil sau/si pentru marketing direct în orice moment prin urmarea instrucțiunilor de dezabonare din fiecare e-mail/sms sau alt mesaj electronic. Dacă doreste să își exercite drepturile, o poate face prin transmiterea unei cereri scrise, semnate și datate la adresa de e-mail office@annodomini.com.</p>
+      <p>Drepturile enumerate mai sus nu sunt absolute. Există si excepții, de aceea fiecare cerere primită va fi analizată astfel încât să se poate decide dacă aceasta este întemeiată sau nu. În măsura în care cererea este întemeiată, Furnizorul va facilita exercitarea drepturilor. Dacă cererea este neîntemeiată, o va respinge, însă va informa persoanele vizate asupra motivelor refuzului și asupra drepturilor acestora de a depune o plângere la Autoritatea de Supraveghere și de a se adresa justiției. Furnizorul va încerca să răspundă solicitării acesteia în termen de 30 de zile. Cu toate acestea, termenul poate fi prelungit în funcție de diferite aspecte, precum complexitatea cererii, numărul mare de cereri primite sau imposibilitatea de a te identifica într-un termen util. Dacă, deși depune toate eforturile, Furnizorul nu reușeste să identifice persoana vizata, iar aceasta nu îi furnizează informații suplimentare pentru a reuși să o identifice, Furnizorul nu va fi obligată să dea curs solicitării.</p>
+
+      <h4>SOLICITĂRI ȘI EXERCITAREA DREPTURILOR:</h4>
+      <p>Dacă există întrebări sau nelămuriri cu privire la prelucrarea informațiilor persoanei fizice vizate sau aceasta doreste să își exercite drepturile legale sau are orice altă temere cu privire la confidențialitate, ne poate scrie la adresa de e-mail office@annodomini.com.</p>
+      <p>De asemenea, datele de contact ale persoanei care prelucrează datele personale ale angajaților în cadrul Anno Domini-Memorii Digitale sunt: office@annodomini.com.</p>
+    </section>
+
+    <hr style="margin: 2rem 0;">
+
+    <section>
+      <h3>Politică de Cookie-uri</h3>
+      <p><strong>Ultima actualizare: 5 iunie 2025</strong></p>
+
+      <h4>Ce sunt cookie-urile?</h4>
+      <p>Această Politică privind cookie-urile explică ce sunt cookie-urile și cum le folosim, tipurile de cookie-uri pe care le folosim, adică informațiile pe care le colectăm folosind cookie-uri și cum sunt utilizate acele informații și cum să gestionăm setările cookie-urilor.</p>
+      <p>Cookie-urile sunt fișiere text mici care sunt folosite pentru a stoca mici informații. Acestea sunt stocate pe dispozitivul dvs. atunci când site-ul web este încărcat în browser. Aceste cookie-uri ne ajută să facem site-ul web să funcționeze corect, să îl facem mai sigur, să oferim o experiență mai bună pentru utilizator și să înțelegem cum funcționează site-ul web și să analizăm ce funcționează și unde trebuie îmbunătățit.</p>
+
+      <h4>Cum folosim cookie-urile?</h4>
+      <p>Ca majoritatea serviciilor online, site-ul nostru web https://annodomini.blog/ folosește cookie-uri de la prima parte și de la terți în mai multe scopuri. Cookie-urile de la prima parte sunt în cea mai mare parte necesare pentru ca site-ul web să funcționeze corect și nu colectează niciuna dintre datele dumneavoastră de identificare personală.</p>
+      <p>Cookie-urile terță parte utilizate pe site-ul nostru sunt în principal pentru a înțelege modul în care funcționează site-ul web, cum interacționați cu site-ul nostru (de ex., prin servicii Google integrate), menținerea serviciilor noastre în siguranță, furnizarea de reclame care sunt relevante pentru dvs. și, în general, oferindu-vă o experiență de utilizator mai bună și îmbunătățită și vă ajută să vă accelerați viitoarele interacțiuni cu site-ul nostru web.</p>
+
+      <h4>Cookie-urile utilizate de https://annodomini.blog/</h4>
+
+      <h5>Cookie-uri Necesare (Prima Parte - setate de Cloudflare)</h5>
+      <p>Cookie-urile necesare sunt esențiale pentru funcțiile de bază ale site-ului web, iar site-ul web nu va funcționa în modul dorit fără ele. Aceste cookie-uri nu stochează date de identificare personală.</p>
+      <table border="1" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;">
+        <thead>
+          <tr>
+            <th style="padding: 8px; text-align: left;">Cookie-uri</th>
+            <th style="padding: 8px; text-align: left;">Durată</th>
+            <th style="padding: 8px; text-align: left;">Descriere</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 8px;">__cf_bm</td>
+            <td style="padding: 8px;">De obicei, aproximativ 30 de minute (dar poate varia; imaginea furnizată indică o dată de expirare în 2025).</td>
+            <td style="padding: 8px;">Setat de Cloudflare, acest cookie este utilizat pentru a distinge între oameni și boți (Bot Management).</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">_cfuvid</td>
+            <td style="padding: 8px;">Sesiune</td>
+            <td style="padding: 8px;">Setat de Cloudflare, utilizat ca parte a caracteristicilor de securitate și rate limiting pentru a ajuta la identificarea și urmărirea utilizatorilor unici.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">_cf_clearance</td>
+            <td style="padding: 8px;">Aproximativ 1 an (imaginea furnizată indică o dată de expirare în 2026).</td>
+            <td style="padding: 8px;">Setat de Cloudflare, stochează starea de "clearance" a unui utilizator după ce a trecut o provocare (de ex., CAPTCHA), permițând accesul la site fără provocări repetate.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h5>Cookie-uri de la Terți (ex. Google)</h5>
+      <p>Aceste cookie-uri sunt setate de domenii Google atunci când site-ul nostru utilizează serviciile lor (de ex., Google reCAPTCHA, YouTube încorporat, Google Fonts, etc.). Scopul și clasificarea lor pot depinde de serviciul specific Google utilizat pe https://annodomini.blog/.</p>
+
+      <h6>Pentru Securitate (Necesare) - ex. prin Google reCAPTCHA:</h6>
+      <p>Aceste cookie-uri sunt esențiale pentru funcționarea corectă și sigură a serviciilor Google integrate, cum ar fi reCAPTCHA, care protejează site-ul împotriva spamului și abuzurilor.</p>
+      <table border="1" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;">
+        <thead>
+          <tr>
+            <th style="padding: 8px; text-align: left;">Cookie-uri</th>
+            <th style="padding: 8px; text-align: left;">Domeniu</th>
+            <th style="padding: 8px; text-align: left;">Descriere Generală (setat de Google)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 8px;">SID, HSID, APISID, SAPISID</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Folosite pentru securitate, autentificarea utilizatorilor Google, prevenirea utilizării frauduloase a datelor de autentificare și protejarea datelor.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">__Secure-1PSID, __Secure-3PSID (și altele similare)</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Variante securizate ale cookie-urilor SID, APISID, SAPISID, esențiale pentru securitate și autentificare la serviciile Google.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">SIDCC, __Secure-1PSIDCC, __Secure-3PSIDCC</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Contribuie la securitatea și integritatea sesiunii utilizatorului cu serviciile Google.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">SEARCH_SAMESITE</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Folosit pentru protecție împotriva atacurilor de tip Cross-Site Request Forgery (CSRF) pentru serviciile Google.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h6>Pentru Preferințe și Funcționalitate (Funcționale) - ex. prin YouTube încorporat, Google Fonts:</h6>
+      <p>Aceste cookie-uri ajută la reținerea preferințelor utilizatorului și la funcționarea corectă a conținutului încorporat de la Google.</p>
+      <table border="1" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;">
+        <thead>
+          <tr>
+            <th style="padding: 8px; text-align: left;">Cookie-uri</th>
+            <th style="padding: 8px; text-align: left;">Domeniu</th>
+            <th style="padding: 8px; text-align: left;">Descriere Generală (setat de Google)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 8px;">NID / __Secure-ENID</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Stochează preferințe ale utilizatorului (ex. limba) pentru serviciile Google și poate personaliza conținutul (ex. player YouTube). Poate fi folosit și pentru personalizarea anunțurilor.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">DV</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Folosit pentru preferințe și funcționalitatea serviciilor Google, adesea legat de sesiunea utilizatorului autentificat.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">UULE</td>
+            <td style="padding: 8px;">www.google.com</td>
+            <td style="padding: 8px;">Poate stoca informații despre locația aproximativă a utilizatorului pentru a personaliza serviciile Google (ex. rezultate de căutare, conținut YouTube), cu consimțământul utilizatorului.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h6>Pentru Publicitate (Publicitare) - ex. prin AdSense, YouTube cu reclame:</h6>
+      <p>Aceste cookie-uri sunt folosite de Google pentru a colecta informații despre vizitele dvs. pe site-ul nostru și pe alte site-uri, pentru a afișa anunțuri mai relevante pentru interesele dvs.</p>
+      <table border="1" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;">
+        <thead>
+          <tr>
+            <th style="padding: 8px; text-align: left;">Cookie-uri</th>
+            <th style="padding: 8px; text-align: left;">Domeniu</th>
+            <th style="padding: 8px; text-align: left;">Descriere Generală (setat de Google)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 8px;">AEC</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Folosit în context publicitar, posibil pentru a măsura performanța anunțurilor, a asigura livrarea corectă a acestora sau a preveni frauda.</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;">NID / __Secure-ENID</td>
+            <td style="padding: 8px;">.google.com</td>
+            <td style="padding: 8px;">Pe lângă preferințe, este un cookie cheie pentru personalizarea anunțurilor pe proprietățile Google și pe site-urile partenere, pe baza intereselor și interacțiunilor utilizatorului.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5>Cookie-uri Funcționale (Prima Parte - dacă există)</h5>
+      <p>Cookie-urile de funcționalitate ajută la realizarea anumitor funcționalități, cum ar fi partajarea conținutului site-ului web pe platformele de socializare, colectarea de feedback și alte caracteristici ale terților, setate direct de https://annodomini.blog/.</p>
+      <h5>Cookie-uri Analitice (Pot fi și de la Terți, ex. Google Analytics)</h5>
+      <p>Cookie-urile analitice sunt utilizate pentru a înțelege modul în care vizitatorii interacționează cu site-ul web. Aceste cookie-uri ajută la furnizarea de informații cu privire la valori, cum ar fi numărul de vizitatori, rata de respingere, sursa de trafic etc.</p>
+      <h4>Gestionarea preferințelor pentru cookie-uri</h4>
+      <p>În plus, diferite browsere oferă diferite metode de blocare și ștergere a cookie-urilor utilizate de site-uri web. Puteți modifica setările browserului dumneavoastră pentru a bloca/șterge cookie-urile. Mai jos sunt enumerate linkurile către documentele de asistență despre cum să gestionați și să ștergeți cookie-urile din principalele browsere web.</p>
+      <ul>
+        <li>Chrome: <a href="https://support.google.com/accounts/answer/32050" target="_blank" rel="noopener noreferrer">https://support.google.com/accounts/answer/32050</a></li>
+        <li>Safari: <a href="https://support.apple.com/en-in/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer">https://support.apple.com/en-in/guide/safari/sfri11471/mac</a></li>
+        <li>Firefox: <a href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox" target="_blank" rel="noopener noreferrer">https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox</a></li>
+        <li>Internet Explorer: <a href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc" target="_blank" rel="noopener noreferrer">https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc</a></li>
+      </ul>
+      <p>Dacă utilizați orice alt browser web, vă rugăm să vizitați documentele oficiale de asistență ale browserului dvs.</p>
+    </section>
+
+    <p style="margin-top: 2rem;">Pentru orice întrebări suplimentare legate de această Politică de Confidențialitate și Cookie-uri, vă rugăm să ne contactați la adresa de e-mail: office@annodomini.com.</p>
+  </div>
+</div>
+
+
+<div id="terms-content" class="page-content">
+  <div class="page-padding" style="padding: 2rem 1.5rem; background-color: var(--light-color); border-radius: var(--border-radius); margin: 1rem 0;">
+    <h2>Termeni și Condiții</h2>
+    <p><strong>Ultima actualizare: 4 Iunie 2025</strong></p>
+
+    <p>Acești Termeni și Condiții ("Termeni") definesc cadrul utilizării de către dumneavoastră a website-ului <strong>annodomini.blog</strong> ("Site-ul") și a serviciilor specializate oferite de <strong>SC G&O TEAM S.R.L</strong> sub brandul <em>Anno Domini - Memorii Digitale</em>, intitulate in continuare “Furnizor”.</p>
+    <p>Prin accesarea Site-ului și utilizarea Serviciilor noastre, confirmați că ați citit, ați înțeles pe deplin și sunteți de acord să respectați acești Termeni în integralitatea lor. Dacă nu sunteți de acord cu oricare dintre prevederile acestui set de Termeni si Conditii, sau aveti nelamuriri la continutul si aplicarea lor vă rugăm să ne contactati folosind adresa de e-mail: <strong>annodomini@gmail.com</strong>.</p>
+
+    <section>
+      <h3>1. Definiții Cheie</h3>
+      <ul>
+        <li><strong>Client:</strong> Orice persoană fizică sau juridică ce solicită și/sau beneficiază de Serviciile oferite de Companie.</li>
+        <li><strong>Furnizor:</strong> Ofera servicii specializate informatice, de prelucrare de date, de stocare de date sincronizate prin cod de raspuns rapid (QR code) printate 3D.</li>
+        <li><strong>Servicii:</strong> Crearea de memorii digitale sub forma unor pagini cu informatii personalizate preluate de la Client si prelucrate in conformitate cu contractele intervenite intre Furnizor si Client. Informatiile pot include: text, fotografii si videoclipuri.</li>
+        <li><strong>Materiale Client:</strong> Totalitatea textelor, imaginilor, videoclipurilor și a oricăror alte date sau informații furnizate de Client Furnizorului în scopul creării memoriei digitale, aflate pe site-ul de la adresa <a href="https://annodomini.blog" target="_blank">https://annodomini.blog</a>.</li>
+        <li><strong>Memorie Digitală:</strong> Subpagina web personalizată, creată de Furnizor in baza datelor primite de la Client, prelucrate si procesate cu acordul acestuia si facute publice pe site-ul aflat la adresa <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a> si sincronizate cu codul QR aferent acesteia.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>2. Eligibilitate și Utilizarea Serviciilor</h3>
+        <p>Prin solicitarea Serviciilor, Clientul declară și garantează că:</p>
+      <ul>
+        <li>Deține capacitatea legală deplină pentru a încheia un contract valabil cu Furnizorul.</li>
+        <li>Deține toate drepturile necesare (inclusiv drepturi de autor și consimțământul persoanelor vizate, unde este cazul) asupra materialelor furnizate.</li>
+        <li>Utilizarea acestor materiale de către Furnizor în scopul prestării Serviciilor, nu va încălca drepturile niciunui terț sau vreo lege aplicabilă.</li>
+        <li>Va furniza informații corecte, complete și actualizate, esențiale pentru calitatea Serviciilor.</li>
+        <li>Dupa ce si-a dat acceptul, formatul si continutul final al materialului, in varianta in care va fi publicat pe site-ul de la adresa <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a> devine responsabilitatea exclusiva a lui.</li>
+      </ul>
+      <p>Furnizorul își rezervă dreptul de a refuza furnizarea Serviciilor pentru conținut considerat, la libera sa discreție, ca fiind ilegal, ofensator, defăimător, obscen, care încalcă drepturile de proprietate intelectuală ale terților, incită la ură sau discriminare, sau este, în orice alt mod, inadecvat scopului comemorativ si educativ. Limbajul folosit va respecta normele comunicarii etice, iar exrimarea va fi corect gramaticala.</p>
+    </section>
+
+    <section>
+      <h3>3. Drepturi de Proprietate Intelectuală</h3>
+      <ul>
+        <li>Clientul, dupa ce si-a dat acceptul, formatul si continutul final al materialului, cedeaza implicit drepturile de autor Furnizorului, consfintind astfel accesul nelimitat la informatia postata.</li>
+        <li>La cererea explicita, in scris a clientului, informatiile respectivului client pot fi sterse de pe site-ul <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a>, iar acest lucru nu aduce Furnizorului nici un fel de obligatie referitoare la informatii vizualizate sau preluate de terti pe perioada desfasurarii contractului.</li>
+        <li>Design-ul Site-ului, textele descriptive ale serviciilor, elementele grafice originale, software-ul și orice alt material creat de Furnizor sau de Client impreuna cu Furnizorul, reprezintă proprietatea exclusivă a Furnizorului și sunt protejate de legislația privind drepturile de autor și alte legi referitoare la proprietatea intelectuală.</li>
+        <li>Scopul respectarii dreptului de proprietate al Furnizorului pentru materialele de pe site-ul <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a> are ca principal obiectiv punerea in evidenta a misiunii educationale rezultate din parteneriatul Furnizor-Client.</li>
+            <li>Orice material publicat si stocat de catre Furnizor va avea atasata proveninenta inforamtiilor. La cererea clientului si cu asumarea responsabilitatii acestuia, informatia publicata poate fi preluata din domenii publice, cu indicarea sursei.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>4. Codurile QR</h3>
+      <p>Furnizorul livreaza Clinetului un cod QR printat 3D din material plastic bicolor (alb-negru), care prin scanare duce in pagina sincronizata cu informatii convenite de Client si Furnizor. Specificatii dimensionale vor fi specificate in oferta finala.</p>
+      <p>La livrare, Furnizorul garantează integritatea si functionalitatea codului QR și a link-ului către memeoria digitala. Compania nu poate fi trasă la răspundere pentru deteriorarea fizică a codului QR cauzată de factori externi (precum vandalism, accidente, condiții meteorologice extreme neprevăzute în specificațiile materialului, curățare necorespunzătoare) sau pentru dificultăți de funcționare generate de schimbări tehnologice majore în standardele codurilor QR sau ale browserelor web, care ar putea apărea pe termen foarte lung și sunt în afara controlului rezonabil al Companiei. Asigurăm mentenanța paginii digitale și a link-ului pe toata perioada contractuala pentru care Clientul achita contravaloarea serviciilor/abonamentelor.</p>
+    </section>
+
+    <section>
+      <h3>5. Prețuri, Plăți și Anulări</h3>
+      <p>Prețurile Serviciilor sunt cele afișate pe site-ul <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a> pentru pachetele standard, sau comunicate în cadrul ofertelor personalizate pregatite de catre Furnizor la cererea expresan a Clientului. Toate prețurile sunt exprimate în RON și nu includ TVA.</p>
+      <p>Plata se va efectua conform termenilor stabiliți în ofertă sau la momentul plasării comenzii. Ne rezervăm dreptul de a nu iniția prestarea Serviciilor până la confirmarea integrală a plății.</p>
+    </section>
+
+    <section>
+      <h3>6. Folosirea materialelor in scopul promovarii</h3>
+      <p>Furnizorul isi reverza dreptul de a sterge informatiile stocate pe site-ul de la adresa <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a> in cazul in care Clientul depaseste data scadenta, in conformitate cu prevederile contractuale, a facturii care face referire la plata abonamentului anual. Exceptie poate face situatia in care, cu acceputul Clientului, Furnizorul foloseste informatiile cu scopul de a promova brandul Anno Domini-Memorii Digitale, situatie in care informatia va ramane pe site iar Clientul va fi scutit de plata anuala a abonamentului pentru unul sau mai multi ani (asa cum vor stabili de comun acord Furnziorul si Clientul).</p>
+    </section>
+
+    <section>
+      <h3>7. Garanție și Limitarea Răspunderii</h3>
+      <p>Furnizorul se angajează să furnizeze Serviciile cu maxim profesionalism și la un standard înalt de calitate. Asigurăm găzduirea și funcționalitatea site-ului de la adresa <a href="https://annodomini.blog/" target="_blank">https://annodomini.blog/</a> conform pachetului de servicii ales.</p>
+      <p>Furnizorul nu garantează că Site-ul sau Serviciile vor fi neîntrerupte sau fără erori, dar va depune toate eforturile rezonabile pentru a corecta prompt orice defecțiuni intervenite.</p>
+      <p>În măsura maximă permisă de legislația în vigoare, răspunderea totală a Furnizorului față de Client pentru orice pretenție care decurge din sau este legată de acești Termeni sau de furnizare a Serviciilor (fie ea contractuală, delictuală sau de altă natură) nu va depăși suma totală plătită de Client Companiei pentru Serviciile specifice care au generat pretenția.</p>
+      <p>Furnizorul nu va fi răspunzătoare pentru nicio daună indirectă, specială, incidentală, punitivă sau consecvențială (incluzând, dar fără a se limita la, pierderea de profituri, date sau oportunități de afaceri) care decurge din sau este legată de utilizarea sau incapacitatea de a utiliza Serviciile, chiar dacă Furnizorul a fost informat despre posibilitatea producerii unor astfel de daune.</p>
+    </section>
+
+    <section>
+      <h3>8. Confidențialitate</h3>
+      <p>Prelucrarea datelor cu caracter personal de către Furnizor este guvernată de Politica de Confidențialitate, disponibilă pe Site, care constituie parte integrantă a acestor Termeni.</p>
+      <p>La semnarea contractului de colaborare, partile, respectiv Clientul si Furnizorul accepta continutul acestui document “Termeni si Conditii”, precum si continutul documentului “Politica de Confidentialitate”, gasit in format electronic la adresa <a href="https://annodomini.blog" target="_blank">https://annodomini.blog</a>.</p>
+    </section>
+
+    <section>
+      <h3>9. Modificări ale Termenilor</h3>
+      <p>Furnizorul își rezervă dreptul de a modifica unilateral acești Termeni în orice moment. Orice modificare va intra în vigoare la 60 de zile (calendaristice) după publicarea versiunii actualizate pe Site. Continuarea utilizării Site-ului sau a Serviciilor după cele 60 de zile (calendaristice), reprezintă acceptarea de către Client a Termenilor revizuiți. Furnizorul va anunta prin e-mail in maxim 30 de zile dupa publicarea modificarilor, astfel incat Clientul va avea la dispozitie minim 30 de zile (calendaristice), in care poate cosulta modificarile intervenite si il poate contacta pe Furnizor.</p>
+    </section>
+
+    <section>
+      <h3>10. Forță Majoră</h3>
+      <p>Niciuna dintre părți nu va fi considerată răspunzătoare pentru neîndeplinirea sau îndeplinirea cu întârziere a obligațiilor sale (cu excepția obligațiilor de plată) dacă aceasta este cauzată de un eveniment de forță majoră, așa cum este definit de legislația română (de exemplu: război, calamități naturale, pandemii cu restricții guvernamentale majore, greve generale etc.). DE COMPLETAT.</p>
+    </section>
+
+    <section>
+      <h3>11. Legea Aplicabilă și Jurisdicția</h3>
+      <p>Acești Termeni vor fi guvernați și interpretați în conformitate cu legile României. Orice dispută care decurge din sau în legătură cu acești Termeni se va putea solutiona prin arbitraj, iar cand nu este posibil va fi supusă jurisdicției exclusive a instanțelor competente din România, iar judecata lor se va face la instantele din Timisoara.</p>
+    </section>
+
+    <section>
+      <h3>12. Contact</h3>
+      <p>Pentru orice întrebări, nelămuriri sau clarificări referitoare la acești Termeni și Condiții, vă stăm la dispoziție:</p>
+      <p><strong>Anno Domini - Memorii Digitale</strong></p>
+      <p>Email: contact@annodomini.ro</p>
+      <p>Telefon: +40771174463</p>
+         <p>Adresă: Str. Intrarea Carului nr. 5, Timișoara, România</p>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+    <div id="story-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" title="Închide">×</span>
+        <div id="story-modal-content">
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Anno Domini - Memorii Digitale. Toate drepturile rezervate.</p>
+    <div class="footer-links">
+      <a href="#privacy" class="footer-link" data-option="privacy">Politica de Confidențialitate</a>
+      <a href="#terms" class="footer-link" data-option="terms">Termeni și Condiții</a>
+      <a href="#contact" class="footer-link" data-option="contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
